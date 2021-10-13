@@ -1,10 +1,10 @@
 # Bookstore Template
 
 ## Content
-- [Deployed Site](https://github.com/Sanket-Mathur/Bookstore-template/blob/master/README.md#deployed-site)
-- [Interface](https://github.com/Sanket-Mathur/Bookstore-template/blob/master/README.md#interface)
-- [Steps to contribute](https://github.com/Sanket-Mathur/Bookstore-template/blob/master/README.md#steps-to-contribute)
-- [Points to Consider while Contributing](https://github.com/Sanket-Mathur/Bookstore-template/blob/master/README.md#points-to-consider-while-contributing)
+- [Deployed Site](#deployed-site)
+- [Interface](#interface)
+- [Steps to contribute](#steps-to-contribute)
+- [Points to Consider while Contributing](#points-to-consider-while-contributing)
 
 ## Deployed Site
 [Test Deployment](https://sanket-mathur.github.io/Bookstore-template/)
@@ -31,7 +31,7 @@ git push
 - Submit a Pull Requests with the commits you want to merge with the project
 - Follow up with the comments in your pull requests till it is merged
 
-# Points to consider while contributing
+## Points to consider while contributing
 - Use generalized design patterns
 - Try to use CSS variables for commonly used values
 - Do not repeat already existing code
