@@ -75,6 +75,12 @@
 .card img {
     width: 20em;
     height: 13em;
+    transition: all 0.2s ease-in-out;
+}
+.card img:hover{
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    transform: scale(1.25);
 }
 h1 {
     font-size: 6rem;
