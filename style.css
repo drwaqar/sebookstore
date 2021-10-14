@@ -111,6 +111,11 @@ h4 {
 h4.margin-light-h4 {
   margin-top: 0.3em;
 }
+a:link{
+    text-decoration: none!important;
+    color: var(--main-color);
+}
+
 h4.upper-h4 {
   text-transform: uppercase;
   font-weight: 600;
