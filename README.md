@@ -4,6 +4,7 @@
 - [Deployed Site](#deployed-site)
 - [Interface](#interface)
 - [Steps to contribute](#steps-to-contribute)
+- [Commit Guidelines](#commit-guidelines)
 - [Points to Consider while Contributing](#points-to-consider-while-contributing)
 
 ## Deployed Site
