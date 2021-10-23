@@ -86,6 +86,7 @@ h1 {
     font-size: 6rem;
     font-family: var(--heading-font);
     font-style: italic;
+    text-align: center;
 }
 h2 {
     font-size: 3rem;
@@ -99,6 +100,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     word-spacing: 0.3em;
+    text-align: center;
 }
 h4 {
     font-size: 1.3rem;
@@ -197,4 +199,73 @@ h4.upper-h4 {
 }
 .contact .vertical::before, .contact .vertical::after {
     background-color: var(--main-color);
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    .line {
+        display: none;
+    }
+    .vertical {
+        display: none;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .card {
+        margin-bottom: 2em;
+    }
+
+    .banner {
+        padding: 1em;
+    }
+
+    .about .banner {
+        width: 90%;
+        background: transparent;
+        text-shadow: 2px 2px 2px black;
+    }
+    .about h2 {
+        font-size: 3rem;
+    }
+    .about h4 {
+        font-size: 1.8rem;
+    }
+
+    .genres.section, .events.section {
+        height:max-content;
+    }
+    .genres h2, .events h2 {
+        margin-bottom: 1em;
+    }
+    
+    .contact .banner {
+        width: 100vw;
+    }
+    .contact .photo {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    .card:nth-child(3) {
+        display: none;
+    }
+
+    .landing .banner {
+        padding: 6em;
+    }
+
+    .about .banner {
+        width: 50%;
+    }
+
+
 }
