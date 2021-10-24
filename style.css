@@ -203,7 +203,7 @@ h4.upper-h4 {
 
 @media only screen and (max-width: 767px) {
     h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .line {
@@ -218,7 +218,14 @@ h4.upper-h4 {
     .card {
         margin-bottom: 2em;
     }
+    .card img {
+        width: 60vw;
+        height: auto;
+    }
 
+    .section {
+        scroll-snap-align: unset;
+    }
     .banner {
         padding: 1em;
     }
@@ -266,6 +273,4 @@ h4.upper-h4 {
     .about .banner {
         width: 50%;
     }
-
-
 }
