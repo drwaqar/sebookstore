@@ -262,8 +262,46 @@ h4.upper-h4 {
         font-size: 5rem;
     }
 
-    .card:nth-child(3) {
-        display: none;
+    .cards {
+        width: 70vh;
+        max-height: 80vw;
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        transform: rotate(-90deg);
+
+        scrollbar-color: var(--main-color) var(--accent-color);
+        direction: rtl;
+    }
+    .card {
+        transform: rotate(90deg);
+        margin: 5vh;
+        padding: 5vh;
+    }
+
+    .cards::-webkit-scrollbar {
+        width: 1em;
+    }
+    .cards::-webkit-scrollbar-track {
+        background: var(--accent-color);
+        border: 2px solid var(--main-color);
+        border-radius: 0.5em;
+    }
+    .cards::-webkit-scrollbar-thumb {
+        background: var(--main-color);
+        border-radius: 0.5em;
+    }
+
+    .events .cards {
+        scrollbar-color: var(--accent-color) var(--main-color);
+    }
+    .events .cards::-webkit-scrollbar-track {
+        background: var(--main-color);
+        border: 2px solid var(--accent-color);
+    }
+    .events .cards::-webkit-scrollbar-thumb {
+        background: var(--accent-color);
     }
 
     .landing .banner {
