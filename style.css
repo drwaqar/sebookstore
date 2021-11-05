@@ -263,7 +263,8 @@ h4.upper-h4 {
     }
 
     .cards {
-        width: 70vh;
+        width: 700px;
+        max-width: 70vh;
         max-height: 80vw;
         flex-direction: column;
         justify-content: flex-start;
@@ -310,5 +311,19 @@ h4.upper-h4 {
 
     .about .banner {
         width: 50%;
+    }
+}
+
+@media only screen and (max-height: 525px) {
+    .card img {
+        width: 8em;
+        height: 5.2em;
+    }
+    h4 {
+        font-size: 0.8rem !important;
+        margin-top: 0.5em;
+    }
+    .vertical {
+        display: none;
     }
 }
